@@ -30,7 +30,7 @@ func search(term string) (algoliasearch.QueryRes, error) {
 	index := client.InitIndex("leancloud")
 
 	params := algoliasearch.Map{
-		"hitsPerPage": 1000, // max value
+		"hitsPerPage": 1000, // max value for algolia api without pagination
 	}
 
 	return index.Search(term, params)

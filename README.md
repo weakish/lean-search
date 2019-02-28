@@ -30,6 +30,10 @@ You can install it from source under other operation systems:
 go get -u github.com/weakish/lean-search
 ```
 
+## Limit
+
+It will return **1000** results at most.
+
 ## License
 
 0BSD
