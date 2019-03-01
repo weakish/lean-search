@@ -34,8 +34,11 @@ go get -u github.com/weakish/lean-search
 
 It will return **1000** results at most.
 
-## License
+## Legal
 
-0BSD
+**License** 0BSD
+
+**Disclaimer** lean-search is not endorsed by LeanCloud in any way.
+
 
 
